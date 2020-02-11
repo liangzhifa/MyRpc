@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zhifa-rpc-client" />
+        <module name="zhifa-rpc-codec" />
+        <module name="zhifa-rpc-common" />
+        <module name="zhifa-rpc-proto" />
+        <module name="zhifa-rpc-server" />
+        <module name="zhifa-rpc-transport" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
