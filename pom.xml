@@ -15,6 +15,7 @@
         <module>zhifa-rpc-transport</module>
         <module>zhifa-rpc-server</module>
         <module>zhifa-rpc-client</module>
+        <module>zhifa-rpc-demo</module>
     </modules>
 
     <properties>

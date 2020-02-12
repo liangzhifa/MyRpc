@@ -7,3 +7,12 @@
 *.iml
 out
 gen
+/.idea/
+zhifa-rpc-client/target/
+zhifa-rpc-codec/target/
+zhifa-rpc-common/target/
+zhifa-rpc-demo/src/test/
+zhifa-rpc-demo/target/
+zhifa-rpc-proto/target/
+zhifa-rpc-server/target/
+zhifa-rpc-transport/target/

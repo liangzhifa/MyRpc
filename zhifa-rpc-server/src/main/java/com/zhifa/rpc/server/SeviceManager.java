@@ -31,7 +31,6 @@ public class SeviceManager {
             ServiceInstance instance = new ServiceInstance(bean, method);
             ServiceDescriptor descriptor = ServiceDescriptor.from(interfaceClass, method);
             service.put(descriptor, instance);
-
             log.info("register service......{}",service);
         }
     }

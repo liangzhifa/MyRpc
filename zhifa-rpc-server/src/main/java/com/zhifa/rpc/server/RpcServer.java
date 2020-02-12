@@ -30,6 +30,7 @@ public class RpcServer {
 
     public RpcServer() {
 
+        this(new RpcServerConfig());
     }
 
     public RpcServer(RpcServerConfig config) {
@@ -46,11 +47,11 @@ public class RpcServer {
         serviceManager.register(interfaceClass, bean);
     }
 
-    private void start() {
+    public void start() {
         this.net.start();
     }
 
-    private void stop() {
+    public void stop() {
         this.net.stop();
     }
 
