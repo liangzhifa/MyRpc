@@ -13,5 +13,22 @@
 
     <artifactId>zhifa-rpc-transport</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlet</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zhifa</groupId>
+            <artifactId>zhifa-rpc-proto</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+    </dependencies>
+
 
 </project>
